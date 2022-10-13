@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "TPMediationHelper"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "TradPlus Mediation Helper for iOS."
   spec.description  = <<-DESC
             TradPlusSDK Mediation Helper for iOS. 
