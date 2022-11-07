@@ -52,6 +52,7 @@
 #import <TPMediationHelper/TPMediationYandex.h>
 #import <TPMediationHelper/TPMediationCSJ.h>
 #import <TPMediationHelper/TPMediationADX.h>
+#import <TPMediationHelper/TPMediationBigo.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
