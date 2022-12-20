@@ -14,6 +14,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (TPMediationADManager *)sharedInstance;
 - (TPMediationADLoader *)getLoaderWithUUID:(NSString *)uuid adConfig:(NSDictionary *)adConfig;
+
+- (void)addUUID:(NSString *)UUID;
+@property (nonatomic,strong)NSMutableArray *UUIDList;
 @end
 
 NS_ASSUME_NONNULL_END
