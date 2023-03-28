@@ -45,7 +45,6 @@
 #import <TPMediationHelper/TPMediationUnity.h>
 #import <TPMediationHelper/TPMediationVungle.h>
 #import <TPMediationHelper/TPMediationYouDao.h>
-#import <TPMediationHelper/TPMediationMax.h>
 #import <TPMediationHelper/TPMediationGM.h>
 #import <TPMediationHelper/TPMediationVerve.h>
 #import <TPMediationHelper/TPMediationHelium.h>

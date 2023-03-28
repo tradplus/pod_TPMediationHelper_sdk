@@ -1,20 +1,24 @@
 # 测试工具更新日志
 
+## 1.0.8
+
+支持TradPlus SDK v9.1.0
+
 ## 1.0.7
 
-支持TradPlus v8.8.0
+支持TradPlus SDK v8.8.0
 
 ## 1.0.6
 
-支持TradPlus v8.7.0，最低适配版本修改为： TradPlus v8.7.0
+支持TradPlus SDK v8.7.0，最低适配版本修改为： TradPlus v8.7.0
 
 ## 1.0.5
 
-支持TradPlus v8.6.0
+支持TradPlus SDK v8.6.0
 
 ## 1.0.4
 
-支持TradPlus v8.4.0 及 新增广告平台 Bigo
+支持TradPlus SDK v8.4.0 及 新增广告平台 Bigo
 
 ## 1.0.3
 
