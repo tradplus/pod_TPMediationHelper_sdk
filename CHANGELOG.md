@@ -1,5 +1,10 @@
 # 测试工具更新日志
 
+## 1.1.0
+
+Vungle平台更名为 Liftoff
+更新三方 SKAdNetwork 列表
+
 ## 1.0.9
 
 支持SDK在unity中调用
