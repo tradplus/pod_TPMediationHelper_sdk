@@ -1,5 +1,9 @@
 # 测试工具更新日志
 
+## 1.1.1
+
+支持 zMaticoo
+
 ## 1.1.0
 
 Vungle平台更名为 Liftoff
