@@ -2,6 +2,10 @@
 
 ## 1.1.3
 
+支持TradPlus SDK v10.3.0 增加 Amazon
+
+## 1.1.3
+
 支持TradPlus SDK v10.2.0
 
 ## 1.1.2
