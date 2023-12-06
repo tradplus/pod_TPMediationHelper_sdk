@@ -14,7 +14,6 @@ Pod::Spec.new do |spec|
   spec.requires_arc = true
   spec.frameworks = 'SystemConfiguration', 'CoreGraphics','Foundation','UIKit'
   spec.user_target_xcconfig =   {'OTHER_LDFLAGS' => ['-lObjC']}
-  spec.dependency 'TradPlusAdSDK'
   spec.vendored_frameworks = 'TPMediationHelper/TPMediationHelper.framework'
   spec.resource = 'TPMediationHelper/TPMediationHelper.bundle'
 end
