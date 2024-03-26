@@ -1,5 +1,8 @@
 # 测试工具更新日志
 
+## 1.1.6
+支持TradPlus SDK v11.1.0 增加 KwaiAds
+
 ## 1.1.5
 支持TradPlus SDK v10.9.0 增加 Tanx
 
