@@ -1,5 +1,11 @@
 # 测试工具更新日志
 
+## 1.1.8
+支持 YSONetwork
+
+## 1.1.7
+版本更新
+
 ## 1.1.6
 支持TradPlus SDK v11.1.0 增加 KwaiAds
 
