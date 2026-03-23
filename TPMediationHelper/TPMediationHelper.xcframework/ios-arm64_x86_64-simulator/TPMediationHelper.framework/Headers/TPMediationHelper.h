@@ -6,6 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <TPMediationHelper/TPCMPTableViewController.h>
 #import <TPMediationHelper/TPMHelperMainViewController.h>
 #import <TPMediationHelper/TPMediationInfoViewController.h>
 #import <TPMediationHelper/TPMADSViewController.h>
@@ -20,6 +21,7 @@
 #import <TPMediationHelper/TPMediationBaseModel.h>
 #import <TPMediationHelper/TPMediationAdColony.h>
 #import <TPMediationHelper/TPMediationAdMob.h>
+#import <TPMediationHelper/TPMediationAlgorix.h>
 #import <TPMediationHelper/TPMediationAppLovin.h>
 #import <TPMediationHelper/TPMediationBaidu.h>
 #import <TPMediationHelper/TPMediationChartboost.h>
@@ -52,6 +54,7 @@
 #import <TPMediationHelper/TPMediationCSJ.h>
 #import <TPMediationHelper/TPMediationADX.h>
 #import <TPMediationHelper/TPMediationBigo.h>
+#import <TPMediationHelper/TPMediationMoloco.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
