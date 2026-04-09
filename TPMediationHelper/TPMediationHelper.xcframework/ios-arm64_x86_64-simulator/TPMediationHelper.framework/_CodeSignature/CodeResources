@@ -48,10 +48,6 @@
 		<data>
 		zfd95nUj7sGu6Tb8IQrzBAqzRJ8=
 		</data>
-		<key>Headers/TPMediationAdColony.h</key>
-		<data>
-		Vvyo/Cq54tT96UIpfL1UlxJaFxg=
-		</data>
 		<key>Headers/TPMediationAdMob.h</key>
 		<data>
 		rl9qOR263Xd34dRXXi+SESkxJGw=
@@ -118,7 +114,7 @@
 		</data>
 		<key>Headers/TPMediationHelper.h</key>
 		<data>
-		yHs2cbpio2RLaoB7/3kDN8iR9ZA=
+		qjQT8cyOR6zkYhzFZcao7YmJIuw=
 		</data>
 		<key>Headers/TPMediationInMobi.h</key>
 		<data>
@@ -230,11 +226,43 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Ceq82s7qqeylG/gNxHrZlI6ECno=
+		sio8OdPRJLHIY51NTyOvLD9QHuU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		uUeeQSG0Y84fMxJPuc7KwsSmBq8=
+		</data>
+		<key>TPMADInfoViewController.nib</key>
+		<data>
+		PPDn8GZgdAnl/z1V3yTkAJl1H4I=
+		</data>
+		<key>TPMADSViewController.nib</key>
+		<data>
+		zsT6d4Ynt1lhaSq6aoAB+wLyAVw=
+		</data>
+		<key>TPMADSourceViewController.nib</key>
+		<data>
+		PPDn8GZgdAnl/z1V3yTkAJl1H4I=
+		</data>
+		<key>TPMHelperMainViewController.nib</key>
+		<data>
+		1CMacOrCY/rxzrJEGK/S9sJrC/4=
+		</data>
+		<key>TPMNativeRenderView.nib</key>
+		<data>
+		mInfLl/mPgoZ4ZQ0KuRSuvYSmrg=
+		</data>
+		<key>TPMTestAdsTableViewCell.nib</key>
+		<data>
+		OmDNKonbIL9m1D5kmKNZTMwU6UU=
+		</data>
+		<key>TPMTestAdsViewController.nib</key>
+		<data>
+		y4UVSU3GVUZObZTcxcFevO0iXtU=
+		</data>
+		<key>TPMediationInfoViewController.nib</key>
+		<data>
+		IbPOzCeVLK8YLZVV/Jnlsn/CPjA=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -314,13 +342,6 @@
 			<key>hash2</key>
 			<data>
 			uBDWQxSctG2kogjk5CHemczScT7s9mQWdgdODrxchNs=
-			</data>
-		</dict>
-		<key>Headers/TPMediationAdColony.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			pdR391BimFj8lEUlfUdqDHlayweboJj8yAxJEgwWZ5c=
 			</data>
 		</dict>
 		<key>Headers/TPMediationAdMob.h</key>
@@ -439,7 +460,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ATbTcjYeyC/vsKrXjVp35hFA3tAfLAJ/POcVymWM6wk=
+			BIMo/EM3RlotVpEpZM8VQ+KVeppXOXXOhagnl3axQ9E=
 			</data>
 		</dict>
 		<key>Headers/TPMediationInMobi.h</key>
@@ -636,6 +657,62 @@
 			<key>hash2</key>
 			<data>
 			rv2jQX/A4tIsqTdAU5V/ndsSzt4lfvOZLEVXB6ezrpg=
+			</data>
+		</dict>
+		<key>TPMADInfoViewController.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			t4hkjiK/sPF510ss5PXWHNNAaeqIEBfgB80rsa9Cz7U=
+			</data>
+		</dict>
+		<key>TPMADSViewController.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			f1HgL4/cy53h72RHEwkEmExTCDJTDJjCExTehsY61oA=
+			</data>
+		</dict>
+		<key>TPMADSourceViewController.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			t4hkjiK/sPF510ss5PXWHNNAaeqIEBfgB80rsa9Cz7U=
+			</data>
+		</dict>
+		<key>TPMHelperMainViewController.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			NBd3H85fjwU151OkyAOxKEJtVlBwFgkfk8k5epEHxOs=
+			</data>
+		</dict>
+		<key>TPMNativeRenderView.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			+9oFZy1999u46U1uw5MHA6tGoa9vzh27QNhMHiA7JZA=
+			</data>
+		</dict>
+		<key>TPMTestAdsTableViewCell.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			96JAjrZNRJMJ0CAIjlUeWDtHO4buejjECkSOCltZ+zk=
+			</data>
+		</dict>
+		<key>TPMTestAdsViewController.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			f2jOChD1oTwCNGvJL5/IBXTVU9t+01QRF4ysDUWQsHc=
+			</data>
+		</dict>
+		<key>TPMediationInfoViewController.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			G04M/XEGKhCq5Vn8rojlduFk1i65z+RCmgiH5y1AcUk=
 			</data>
 		</dict>
 	</dict>

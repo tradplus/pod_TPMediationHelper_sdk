@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "TPMediationHelper"
-  spec.version      = "1.3.0"
+  spec.version      = "1.3.1"
   spec.summary      = "TradPlus Mediation Helper for iOS."
   spec.description  = <<-DESC
             TradPlusSDK Mediation Helper for iOS. 
@@ -15,5 +15,4 @@ Pod::Spec.new do |spec|
   spec.frameworks = 'SystemConfiguration', 'CoreGraphics','Foundation','UIKit'
   spec.user_target_xcconfig =   {'OTHER_LDFLAGS' => ['-lObjC']}
   spec.vendored_frameworks = 'TPMediationHelper/TPMediationHelper.xcframework'
-  spec.resource = 'TPMediationHelper/TPMediationHelper.bundle'
 end

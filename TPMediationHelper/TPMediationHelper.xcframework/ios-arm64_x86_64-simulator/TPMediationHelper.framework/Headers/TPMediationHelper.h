@@ -19,7 +19,6 @@
 #import <TPMediationHelper/TPMTestAdsTableViewCell.h>
 
 #import <TPMediationHelper/TPMediationBaseModel.h>
-#import <TPMediationHelper/TPMediationAdColony.h>
 #import <TPMediationHelper/TPMediationAdMob.h>
 #import <TPMediationHelper/TPMediationAlgorix.h>
 #import <TPMediationHelper/TPMediationAppLovin.h>
@@ -64,6 +63,7 @@ NS_ASSUME_NONNULL_BEGIN
 + (void)open;
 + (NSString *)isOpen;
 + (NSString *)getVersion;
++ (NSBundle *)resourceBundle;
 + (void)showTipes:(NSString *)infoStr;
 + (void)showTipes:(NSString *)infoStr offsetY:(CGFloat)offsetY;
 - (void)checkWithCallBack:(void(^)(BOOL finish,NSString *infoStr))callback;
