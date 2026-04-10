@@ -15,7 +15,7 @@ TradPlus iOS Mediation 测试与排查工具。
 platform :ios, '12.0'
 
 target 'YourApp' do
-  pod 'TPMediationHelper', '1.3.1'
+  pod 'TPMediationHelper', '1.3.2'
 end
 ```
 
@@ -38,7 +38,7 @@ pod install
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/tradplus/pod_TPMediationHelper_sdk.git", from: "1.3.1"),
+    .package(url: "https://github.com/tradplus/pod_TPMediationHelper_sdk.git", from: "1.3.2"),
 ],
 targets: [
     .target(

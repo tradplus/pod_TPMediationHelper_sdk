@@ -1,4 +1,7 @@
 # 测试工具更新日志
+## 1.3.2
+xcframework 改为动态库，修复 SPM 集成后 nib 从主 App bundle 加载导致的崩溃
+
 ## 1.3.1
 支持 SPM 分发，资源文件内置到 xcframework
 
