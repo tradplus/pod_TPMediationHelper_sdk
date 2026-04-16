@@ -1,5 +1,11 @@
 # 测试工具更新日志
 
+## 1.4.0
+
+- **版本**：`+[TPMediationHelper getVersion]` 与 Xcode `MARKETING_VERSION` 对齐为 **1.4.0**；重新打包 `TPMediationHelper.xcframework`。
+- **仓库**：移除已废弃的独立 **`TPMediationHelper.bundle`**，资源仅随 **xcframework** 分发（SPM / CocoaPods 一致）。
+- **工程策略**：延续 1.3.1 起的不链入 `TradPlusAds`、`-F` 头路径 + `-undefined dynamic_lookup` 与宿主共用运行时。
+
 ## 1.3.1
 
 - **工程链接**：`TPMediationHelper` 目标不再将 `TradPlusAds.xcframework` 加入链接阶段；通过 `OTHER_CFLAGS` 的 `-F` 指向 xcframework 内对应 slice，仅用于编译期头文件。
