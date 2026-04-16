@@ -15,7 +15,7 @@ TradPlus iOS Mediation 测试与排查工具。
 platform :ios, '12.0'
 
 target 'YourApp' do
-  pod 'TPMediationHelper', '1.3.2'
+  pod 'TPMediationHelper', '1.3.1'
 end
 ```
 
@@ -38,7 +38,7 @@ pod install
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/tradplus/pod_TPMediationHelper_sdk.git", from: "1.3.2"),
+    .package(url: "https://github.com/tradplus/pod_TPMediationHelper_sdk.git", from: "1.3.1"),
 ],
 targets: [
     .target(
@@ -64,3 +64,4 @@ targets: [
 
 - 资源文件（nib）已内置在 `TPMediationHelper.xcframework` 中。
 - 使用 SPM 或 CocoaPods 均无需额外手动拷贝 `TPMediationHelper.bundle`。
+- **宿主 App 必须已集成并与 Helper 编译期头文件兼容的 `TradPlusAds`（CocoaPods / SPM / 本地工程均可）**。自 **1.3.1** 起，Helper **工程上不再链接** `TradPlusAds`，通过 `-undefined dynamic_lookup` 等与宿主已加载的 SDK **共用同一份运行时**；请使用 **1.3.1+**，并确保主工程已正确链接 `TradPlusAds`，否则可能出现 `appId = unknown` 或符号解析失败。

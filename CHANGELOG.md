@@ -1,26 +1,33 @@
 # 测试工具更新日志
-## 1.3.2
-xcframework 改为动态库，修复 SPM 集成后 nib 从主 App bundle 加载导致的崩溃
 
 ## 1.3.1
-支持 SPM 分发，资源文件内置到 xcframework
+
+- **工程链接**：`TPMediationHelper` 目标不再将 `TradPlusAds.xcframework` 加入链接阶段；通过 `OTHER_CFLAGS` 的 `-F` 指向 xcframework 内对应 slice，仅用于编译期头文件。
+- **与宿主 TradPlus 共用运行时**：`OTHER_LDFLAGS` 使用 `-ObjC` 与 `-undefined dynamic_lookup`，由宿主已链接的 `TradPlusAds` 提供 `TradPlus` 等符号，避免 Helper 内再静态链入一份 SDK 导致 `appId = unknown`、状态不一致等问题。
+- **分发**：以 `TPMediationHelper/TPMediationHelper.xcframework` 作为 SPM `binaryTarget`（路径不变）；nib 等资源仍内置在 xcframework 中。
 
 ## 1.3.0
+
 支持 Moloco
 
 ## 1.1.9
+
 支持 TaurusX
 
 ## 1.1.8
+
 支持 YSONetwork
 
 ## 1.1.7
+
 版本更新
 
 ## 1.1.6
+
 支持TradPlus SDK v11.1.0 增加 KwaiAds
 
 ## 1.1.5
+
 支持TradPlus SDK v10.9.0 增加 Tanx
 
 更新三方 SKAdNetwork 列表
