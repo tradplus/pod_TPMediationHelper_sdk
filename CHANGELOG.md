@@ -1,5 +1,11 @@
 # 测试工具更新日志
 
+## 1.4.1
+
+- **SPM 分发**：`Package.swift` 从仓库内 `path` 二进制目标切换为 GitHub Release zip 的远程 `url + checksum` 分发，和主流三方 SPM 方式保持一致。
+- **发布准备**：基于当前 `TPMediationHelper.xcframework` 生成 `TPMediationHelper.xcframework.zip` 并计算校验值，供 SPM 解析时拉取与校验。
+- **兼容性**：CocoaPods 继续沿用仓库内 `TPMediationHelper.xcframework`，本次不调整 Pods 分发方式。
+
 ## 1.4.0
 
 - **版本**：`+[TPMediationHelper getVersion]` 与 Xcode `MARKETING_VERSION` 对齐为 **1.4.0**；重新打包 `TPMediationHelper.xcframework`。

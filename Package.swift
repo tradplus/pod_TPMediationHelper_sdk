@@ -15,7 +15,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "TPMediationHelper",
-            path: "TPMediationHelper/TPMediationHelper.xcframework"
+            url: "https://github.com/tradplus/pod_TPMediationHelper_sdk/releases/download/1.4.1/TPMediationHelper.xcframework.zip",
+            checksum: "83b76d5d8e20dc87f989471c7b98c20c6792880cd05903392223c7d0c7b3334f"
         ),
     ]
 )
